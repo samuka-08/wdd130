@@ -5,39 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About Page">
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="rafting.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header-container">
         <img src="images/z-crossedoars.jpeg" alt="Rafting Site Logo" id="site-logo">
+        <h1>White Water Rafting Adventures</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-            <link rel="rafting" href="rafting.css">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <div class="hero" style="background-image: url('images/rafting14_600.jpg'); background-size: cover; background-position: center;">
+        <section class="hero">
             <h1>White Water Rafting Adventures</h1>
-        </div>
-        <article>
-            <img src="images/rafting4_600.jpg" alt="Happy Client">
-            <p>Our purpose is to create thrilling and unforgettable rafting experiences while ensuring safety and fostering a love for nature.</p>
-        </article>
-        <section>
-            <h2>History</h2>
-            <p>Our company has been guiding adventurers through thrilling white water rapids for over a decade, blending passion with expertise.</p>
         </section>
-        <section>
+        
+        <section class="intro">
+            <div class="intro-content">
+                <p>Our purpose is to create thrilling and unforgettable rafting experiences while ensuring safety and fostering a love for nature.</p>
+                <img src="images/rafting4_600.jpg" alt="Happy Client">
+            </div>
+        </section>
+
+        <section class="history">
+            <h2>History</h2>
+            <div class="history-content">
+                <p>Our company has been guiding adventurers through thrilling white water rapids for over a decade, blending passion with expertise.</p>
+                <img src="images/history.jpg" alt="Rafting History">
+            </div>
+        </section>
+        
+        <section class="adventure">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting17_600.jpg" alt="White Water Rafting 1">
-            <img src="images/rafting53_600.jpg" alt="White Water Rafting 2">
-            <img src="images/rafting64_600.jpg" alt="White Water Rafting 3">
-            <img src="images/rafting65_600.jpg" alt="White Water Rafting 4">
-            <img src="images/rafting20_600.jpg" alt="White Water Rafting 5">
+            <div class="figure_flex">
+                <figure>
+                    <img src="images/rafting17_600.jpg" alt="White Water Rafting 1">
+                    <figcaption>Caption</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting53_600.jpg" alt="White Water Rafting 2">
+                    <figcaption>Caption</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting64_600.jpg" alt="White Water Rafting 3">
+                    <figcaption>Caption</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting65_600.jpg" alt="White Water Rafting 4">
+                    <figcaption>Caption</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
@@ -53,6 +76,14 @@
                 <img src="images/6929237_instagram_icon.png" alt="Instagram">
             </a>
         </nav>
+        <figure>
+            <img src="images/footer_image1.jpg" alt="Footer Image 1">
+            <figcaption>Caption for Footer Image 1</figcaption>
+        </figure>
+        <figure>
+            <img src="images/footer_image2.jpg" alt="Footer Image 2"> 
+            <figcaption>Caption for Footer Image 2</figcaption>
+        </figure>
     </footer>
 </body>
 </html>
